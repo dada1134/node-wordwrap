@@ -1,34 +1,41 @@
 {
   "name": "wordwrap",
-  "description": "Wrap those words. Show them at what columns to start and stop.",
   "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/substack/node-wordwrap.git"
-  },
-  "main": "./index.js",
+  "description": "Wrap those words. Show them at what columns to start and stop.",
   "keywords": [
-    "word",
-    "wrap",
-    "rule",
+    "column",
     "format",
-    "column"
+    "rule",
+    "word",
+    "wrap"
   ],
-  "directories": {
-    "lib": ".",
-    "example": "example",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "expresso"
-  },
-  "devDependencies": {
-    "tape": "^4.0.0"
+  "homepage": "https://github.com/substack/node-wordwrap#readme",
+  "bugs": {
+    "url": "https://github.com/substack/node-wordwrap/issues"
   },
   "license": "MIT",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
     "url": "http://substack.net"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "directories": {
+    "lib": ".",
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/node-wordwrap.git"
+  },
+  "scripts": {
+    "test": "expresso"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
   }
 }
